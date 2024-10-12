@@ -1,2 +1,4 @@
-let cl = "this is my index.js file";
-console.log(cl);
+const myFunc = () => {
+  console.log("Hello, World!");
+};
+document.getElementById("btn").addEventListener("click", myFunc);
